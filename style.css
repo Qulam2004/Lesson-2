@@ -1,0 +1,63 @@
+.div-1{
+    border: 2px solid black;
+    width: 960px;
+    height: 480px;
+    margin: auto;
+    margin-top: 115px;
+    position: relative;
+    background-image: linear-gradient(124deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+
+.div-2{
+    position: absolute;
+    width: 123px;
+    height: 110px;
+    border: 2px solid rgb(141, 59, 59);
+    background-color: lightsalmon;
+    transition: transform 1s ease-out;
+    animation-name: move-animation;
+    animation-duration: 3s;
+}
+
+
+
+.div-3{
+    border: 2px solid black;
+    background-image:linear-gradient(red,yellow) ;
+    margin: auto;
+    margin-top: 110px;
+    width: 44rem;
+    height: 16rem;
+}
+
+
+@keyframes move-animation{
+    0%{
+    background-color: lightsalmon;
+    left: 0;
+    top: 0;
+    
+    }
+    25%{
+    background-color: cyan;
+    left: 834px;
+    top: 0px;
+    
+    }
+    50%{
+        background-color: darkblue;
+        top: 368px;
+        left: 834px;
+    }
+    75%{
+    background-color: maroon;
+    top: 368px;
+    left: 0px;
+    
+    }
+    100%{
+        background-color: darkgreen;
+        left: 0px;
+        top: 0px;
+    }
+}
